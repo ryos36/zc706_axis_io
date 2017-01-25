@@ -1,0 +1,25 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.5b  2016-09-06 bk=1.3687 VDI=39 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 170 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 190 -defaultsOSRD
+preplace inst one -pg 1 -lvl 3 -y 290 -defaultsOSRD
+preplace inst ps7 -pg 1 -lvl 2 -y 220 -defaultsOSRD
+preplace inst stream_fifo -pg 1 -lvl 4 -y 370 -defaultsOSRD
+preplace inst psr0 -pg 1 -lvl 3 -y -80 -defaultsOSRD
+preplace inst psr1 -pg 1 -lvl 3 -y 80 -defaultsOSRD
+preplace inst binary_counter -pg 1 -lvl 3 -y 370 -defaultsOSRD
+preplace inst irq_concat -pg 1 -lvl 1 -y 220 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 2 3 580J 170 NJ 170 NJ
+preplace netloc one_dout 1 3 1 900J
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 2 1 560
+preplace netloc binary_counter_Q 1 3 1 920J
+preplace netloc processing_system7_0_FIXED_IO 1 2 3 550J 190 NJ 190 NJ
+preplace netloc psr1_peripheral_aresetn 1 3 1 910
+preplace netloc psr0_peripheral_aresetn 1 3 1 930
+preplace netloc processing_system7_0_FCLK_CLK0 1 2 2 570 230 890
+preplace netloc irq_concat_dout 1 1 1 180
+preplace netloc processing_system7_0_FCLK_CLK1 1 2 2 590 430 NJ
+levelinfo -pg 1 0 100 370 740 1120 1320 -top -160 -bot 570
+",
+}
