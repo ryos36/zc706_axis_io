@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xd:data xmlns:xd="http://www.xilinx.com/xd">
+  <xd:accel name="pf_read_stream" platform="" compiler="g++" srcfile="pf_read.cpp" srcpath="I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src" flags="-II:/TSDI/sdsoc_v2016_3/zc706_axis_io/src  -D __SDSCC__" clk_id="" ip_requires_adapter="0" ip_is_rtl="1" ip_is_pfunc="0" vlnv="xilinx.com:ip:axis_data_fifo:1.1" is_opencl="0" asmfile="pf_read.s"/>
+</xd:data>

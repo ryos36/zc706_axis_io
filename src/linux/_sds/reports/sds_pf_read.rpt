@@ -1,0 +1,15 @@
+(c) Copyright 2012-2016 Xilinx, Inc. All Rights Reserved.
+#-----------------------------------------------------------
+# Tool version  : sds++ 2016.3 SW Build 1721985 on Nov 29 2016 18:45:16
+# Start time    : Tue Jan 24 17:37:31 +0900 2017
+# Command line  : sds++ -c -sds-hw pf_read_stream ../pf_read.cpp -ip-map ../zc706_axis_io.fcnmap.xml -vlnv xilinx.com:ip:axis_data_fifo:1.1 -ip-params ../zc706_axis_io.params.xml -target-os linux -sds-end -sdslib ../pf_read.cpp -o _sds/sdslib/pf_read.o
+# Log file      : I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/linux/_sds/reports/sds_pf_read.log
+# Journal file  : I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/linux/_sds/reports/sds_pf_read.jou
+# Report file   : I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/linux/_sds/reports/sds_pf_read.rpt
+#-----------------------------------------------------------
+
+High-Level Synthesis
+--------------------
+
+  Vivado HLS Report : file not found : I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/linux/_sds/vhls/pf_read_stream/solution/syn/report/pf_read_stream_csynth.rpt
+

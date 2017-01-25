@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xd:repository xmlns:xd="http://www.xilinx.com/xd">
+    <xd:fcnMap xd:fcnName="pf_read_stream" xd:componentRef="zc706_axis_io">
+        <xd:arg 
+	    xd:name="rbuf" 
+	    xd:direction="out" 
+	    xd:busInterfaceRef="stream_fifo_M_AXIS" 
+	    xd:portInterfaceType="axis" 
+	    xd:dataWidth="32"
+	/>
+    </xd:fcnMap>
+</xd:repository>

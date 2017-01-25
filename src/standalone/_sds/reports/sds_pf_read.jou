@@ -1,0 +1,33 @@
+(c) Copyright 2012-2016 Xilinx, Inc. All Rights Reserved.
+#-----------------------------------------------------------
+# Tool version  : sds++ 2016.3 SW Build 1721985 on Nov 29 2016 18:45:16
+# Start time    : Tue Jan 24 17:38:30 +0900 2017
+# Command line  : sds++ -c -sds-hw pf_read_stream ../pf_read.cpp -ip-map ../zc706_axis_io.fcnmap.xml -vlnv xilinx.com:ip:axis_data_fifo:1.1 -ip-params ../zc706_axis_io.params.xml -target-os standalone -sds-end -sdslib ../pf_read.cpp -o _sds/sdslib/pf_read.o
+# Log file      : I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/standalone/_sds/reports/sds_pf_read.log
+# Journal file  : I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/standalone/_sds/reports/sds_pf_read.jou
+# Report file   : I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/standalone/_sds/reports/sds_pf_read.rpt
+#-----------------------------------------------------------
+
+# INFO: [SDSoC 0-0] Create data motion intermediate representation
+clang_wrapper  -D __SDSCC__ -target arm-none-eabi -mcpu=cortex-a9 -mfpu=vfpv3 -O0 -g     -I C:/Xilinx/SDx/2016.3/aarch32-none/include  -I C:/Xilinx/SDx/2016.3/Vivado_HLS/include   -IC:/Xilinx/SDx/2016.3/SDK/gnu/aarch32/nt/gcc-arm-none-eabi/arm-none-eabi/include/c++/5.2.1 -IC:/Xilinx/SDx/2016.3/SDK/gnu/aarch32/nt/gcc-arm-none-eabi/arm-none-eabi/include/c++/5.2.1/arm-none-eabi -IC:/Xilinx/SDx/2016.3/SDK/gnu/aarch32/nt/gcc-arm-none-eabi/arm-none-eabi/include/c++/5.2.1/backward -IC:/Xilinx/SDx/2016.3/SDK/gnu/aarch32/nt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/5.2.1/include -IC:/Xilinx/SDx/2016.3/SDK/gnu/aarch32/nt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/5.2.1/include-fixed -IC:/Xilinx/SDx/2016.3/SDK/gnu/aarch32/nt/gcc-arm-none-eabi/arm-none-eabi/include -IC:/Xilinx/SDx/2016.3/SDK/gnu/aarch32/nt/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include -emit-llvm -S I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/pf_read.cpp -o I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/standalone/_sds/.llvm/_sds/sdslib/pf_read.s
+# INFO: [SDSoC 0-0] Performing accelerator source linting for pf_read_stream
+sdslint -func pf_read_stream I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/pf_read.cpp -- -c  -D __SDSCC__ -target arm-none-eabi -mcpu=cortex-a9 -mfpu=vfpv3 -O0 -g -w    -I C:/Xilinx/SDx/2016.3/aarch32-none/include  -I C:/Xilinx/SDx/2016.3/Vivado_HLS/include   -IC:/Xilinx/SDx/2016.3/SDK/gnu/aarch32/nt/gcc-arm-none-eabi/arm-none-eabi/include/c++/5.2.1 -IC:/Xilinx/SDx/2016.3/SDK/gnu/aarch32/nt/gcc-arm-none-eabi/arm-none-eabi/include/c++/5.2.1/arm-none-eabi -IC:/Xilinx/SDx/2016.3/SDK/gnu/aarch32/nt/gcc-arm-none-eabi/arm-none-eabi/include/c++/5.2.1/backward -IC:/Xilinx/SDx/2016.3/SDK/gnu/aarch32/nt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/5.2.1/include -IC:/Xilinx/SDx/2016.3/SDK/gnu/aarch32/nt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/5.2.1/include-fixed -IC:/Xilinx/SDx/2016.3/SDK/gnu/aarch32/nt/gcc-arm-none-eabi/arm-none-eabi/include -IC:/Xilinx/SDx/2016.3/SDK/gnu/aarch32/nt/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include
+arm-none-eabi-g++ -c I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/standalone/_sds/swstubs/pf_read.cpp -o I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/standalone/_sds/swstubs/pf_read.o
+arm-none-eabi-objcopy --add-section .xdinfo=I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/standalone/_sds/swstubs/pf_read.o.xml I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/standalone/_sds/swstubs/pf_read.o
+# INFO: [SDSoC 0-0] Using IP core xilinx.com:ip:axis_data_fifo:1.1 for function pf_read_stream
+# INFO: [SDSoC 0-0] Fcnmap file I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/zc706_axis_io.fcnmap.xml
+# INFO: [SDSoC 0-0] Parameters file I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/zc706_axis_io.params.xml
+# INFO: [SDSoC 0-0] IP core is C:/Xilinx/SDx/2016.3/Vivado/data/ip/xilinx/axis_data_fifo_v1_1/component.xml
+cd I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/standalone
+cd I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/standalone
+arm-none-eabi-objcopy --add-section .xddata=I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/standalone/_sds/swstubs/pf_read_stream.xml I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/standalone/_sds/swstubs/pf_read.o
+arm-none-eabi-objcopy --add-section .xdasm=I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/standalone/_sds/.llvm/_sds/sdslib/pf_read.s I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/standalone/_sds/swstubs/pf_read.o
+arm-none-eabi-g++ -E  -D __SDSCC__  -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard    -I C:/Xilinx/SDx/2016.3/aarch32-none/include  -I C:/Xilinx/SDx/2016.3/Vivado_HLS/include I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/pf_read.cpp -o I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/standalone/_sds/.pp/pf_read.ii
+arm-none-eabi-objcopy --add-section .xdpp=I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/standalone/_sds/.pp/pf_read.ii I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/standalone/_sds/swstubs/pf_read.o
+arm-none-eabi-objcopy --add-section .xdfcnmap=I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/standalone/_sds/.llvm/axis_data_fifo.fcnmap.xml I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/standalone/_sds/swstubs/pf_read.o
+arm-none-eabi-objcopy --add-section .xdparams=I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/standalone/_sds/.llvm/axis_data_fifo.params.xml I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/standalone/_sds/swstubs/pf_read.o
+cd C:/Xilinx/SDx/2016.3/Vivado/data/ip/xilinx/axis_data_fifo_v1_1
+zip -r I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/standalone/_sds/.hw/xilinx_com_ip_axis_data_fifo_1_1.zip .
+cd I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/standalone
+arm-none-eabi-objcopy --add-section .xdcore=I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/standalone/_sds/.hw/xilinx_com_ip_axis_data_fifo_1_1.zip I:/TSDI/sdsoc_v2016_3/zc706_axis_io/src/standalone/_sds/swstubs/pf_read.o
+# sds++ completed at Tue Jan 24 17:38:55 +0900 2017

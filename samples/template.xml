@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest:Manifest xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" 
+                   xmlns:manifest="http://www.xilinx.com/manifest">
+    <template location="aximm" name="Unpacketized AXI4-Stream to DDR" 
+              description="Shows how to copy unpacketized AXI-Stream data directly to DDR.">
+        <supports>
+            <and>
+                <or>
+                    <os name="Linux"/>
+                    <os name="Standalone"/>
+                </or>
+            </and>
+        </supports>
+        <accelerator name="s2mm_data_copy" location="main.cpp"/>
+    </template>
+	<template location="stream" name="Packetize an AXI4-Stream" 
+                  description="Shows how to packetize an unpacketized AXI4-Stream.">
+        <supports>
+            <and>
+                <or>
+                    <os name="Linux"/>
+		    <os name="Standalone"/>
+                </or>
+            </and>
+        </supports>
+        <accelerator name="packetize" location="packetize.cpp"/>
+        <accelerator name="minmax" location="minmax.cpp"/>
+    </template>
+    <template location="pull_packet" name="Lossless data capture from AXI4-Stream to DDR" 
+              description="Illustrates a technique to enable lossless data capture from a free-running input source.">
+        <supports>
+            <and>
+                <or>
+                    <os name="Linux"/>
+                    <os name="Standalone"/>
+                </or>
+            </and>
+        </supports>
+        <accelerator name="PullPacket" location="main.cpp"/>
+    </template>
+</manifest:Manifest>
